@@ -50,6 +50,31 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+.main-header {
+    text-align: center;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.car-of-the-week {
+    width: 400px;               
+    height: auto;               
+    padding: 20px;             
+    margin: 30px auto;         
+    border: 3px solid #fefcfc;  
+    background-color: #000000;  
+    border-radius: 8px;      
+    text-align: center;    
+}
+
+.car-of-the-week img {
+    width: 100%;
+    height: auto;
+}
+
 /* Story Page Section */
 
 .story-header {
@@ -67,6 +92,11 @@ body {
 .SkylineStory {
     text-align: center;
     margin-top: 20px;
+}
+
+body {
+    background-image: url('media/motorwaybg.jpg');
+    background-size: cover;
 }
 /* Gallery Page Section */
 
