@@ -2,60 +2,63 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="styles.css"/>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Gallery - Wheels On Fire</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body class="main-header">
-    <div class="header-content">
-      <h1 class="header-title">
-        <a href="index.html" class="header-link">Wheels On Fire</a>
-      </h1>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-      <nav class="main-nav">
-    <ul>
-      <li><a href="index.html">Main Page</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="story.html">Story</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-    </ul>
-  </nav>
+  <header class="header-content">
+    <h1 class="header-title">
+      <a href="index.html" class="header-link" aria-label="Wheels On Fire, home page">Wheels On Fire</a>
+    </h1>
 
-  <main class="main-content">
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Main Page</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
     <div class="gallery-header">
       <h2>Gallery</h2>
-    </div>  
+    </div>
+
+    <div class="gallery-grid">
+      <div class="img1box">
+        <h3>Mazda RX-7</h3>
+        <img src="media/madzarx7rd.jpeg" alt="a picture of a Mazda RX-7" />
+      </div>
+
+      <div class="img2box">
+        <h3>Lexus SC300</h3>
+        <img src="media/lexussc300.jpeg" alt="a picture of a Lexus SC300" />
+      </div>
+
+      <div class="img3box">
+        <h3>Subaru Impreza</h3>
+        <img src="media/subaru.jpg" alt="a picture of a Subaru Impreza" />
+      </div>
+
+      <div class="img4box">
+        <h3>Toyota Supra MKIV</h3>
+        <img src="media/toyotasupramk4.jpg" alt="a picture of a Toyota Supra MKIV" />
+      </div>
+    </div>
   </main>
-
-  <div class="img1box">
-    <h3>Mazda RX-7</h3>
-    <img src="media/madzarx7rd.jpeg" alt="a picture of a Mazda RX-7" />   
-  </div>    
-
-  <div class="img2box">
-    <h3>Lexx SC300</h3>
-    <img src="media/lexussc300.jpeg" alt="a picture of a Lexus SC300" />   
-  </div>   
-
-  <div class="img3box">
-    <h3>Subaru Impreza</h3>
-    <img src="media/subaru.jpg" alt="a picture of a Subaru Impreza" />   
-  </div>   
-
-  <div class="img4box">
-    <h3>Toyota Supra MKIV</h3>
-    <img src="media/toyotasupramk4.jpg" alt="a picture of a Toyota Supra MKIV" />   
-  </div>   
 
   <footer class="main-footer">
     <div class="container">
       <p>&copy; WheelsOnFire.com All rights reserved.</p>
     </div>
   </footer>
-
-    
-  </body>
+</body>
 
 </html>
